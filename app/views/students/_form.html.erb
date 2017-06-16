@@ -1,0 +1,19 @@
+
+<%= form_for @student do |f| %>
+  <p>
+    <%= f.label :first_name %><br> 
+    <%= f.text_field :first_name %>
+  </p>
+ 
+  <p>
+    <%= f.label :class_name%><br> 
+    <%= f.text_field :class_name %>
+  </p>
+ <p>
+    <%= f.label :age%><br>
+    <%= f.text_field :age %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
